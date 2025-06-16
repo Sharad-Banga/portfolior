@@ -22,7 +22,7 @@ function App() {
       <div className={`${isDark?"dark":""}`}>
 
           <div  className="h-[200vh] w-[100%] flex justify-center  dark:bg-[url('images/gradi2.png')]  bg-[url('/images/gradi1.png')] bg-no-repeat bg-cover bg-fixed" >
-            <div className="w-[94%] md:w-[50%] h-full ">
+            <div className="w-[100%] md:w-[50%] h-full ">
 
               <Navbar darki={isDark} toggleDark={toggleDarkMode} />
 
