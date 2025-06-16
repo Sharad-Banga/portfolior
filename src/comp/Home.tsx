@@ -1,3 +1,5 @@
+import ProjectItem from "./ProjectItem";
+import Projects from "./Projects";
 
 
 export default function Home() {
@@ -50,10 +52,10 @@ export default function Home() {
 
       </div>
 
-      <div className="flex justify-start sm:pl-11 pl-4 mt-10 mb-8 items-center dark:text-white">
+      <div className="flex justify-start pl-4  mt-10 mb-8 items-center dark:text-white">
         <div className="sm:w-[92%] w-[96%]">
           <div className="font-semibold mb-2 sm:text-[18px] text-[16px] w-full">About Me</div>
-          <div className="text-[13px]">
+          <div className="text-[13px] sm:text-[16px] font-light">
             Hey! I'm Sharad Banga, I build websites that not only work great but also look impressive, focusing on UI and user experience.
 
             I'm comfortable working in MERN stack and love experimenting with modern technologies. Currently, I’m learning with Next.js and building with TypeScript, Express, and React.
@@ -73,6 +75,9 @@ export default function Home() {
         </div>
       </div>
 
+      
+
+        <Projects />
     
     </div >
   );
