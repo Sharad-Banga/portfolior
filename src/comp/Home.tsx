@@ -1,4 +1,4 @@
-import ProjectItem from "./ProjectItem";
+
 import Projects from "./Projects";
 
 
@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className='flex flex-col  justify-start items-start  w-full h-full pt-24 sm:pt-32'>
 
-      <div className='flex sm:flex-row flex-col-reverse justify-start items-start sm:justify-between sm:pl-4 sm:pl-10 sm:items-center h-[200px] sm:h-[170px]   w-full sm:p-[10px] '>
+      <div className='flex sm:flex-row flex-col-reverse justify-start items-start sm:justify-between sm:pl-4  sm:items-center h-[200px] sm:h-[170px]   w-full sm:p-[10px] '>
         <div>
           <div className='sm:text-[200%] font-bold text-[120%] w-full sm:w-[180%] flex justify-center sm:justify-start  dark:text-green-300 '>
             SHARAD BANGA
