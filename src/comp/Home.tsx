@@ -47,8 +47,10 @@ export default function Home() {
           </div>
         </div>
         <div className="sm:h-[90%] sm:w-[16%]  h-[60%] w-full  rounded-full flex justify-center items-center sm:mr-10 hover:scale-110 mt-4 transition-all ease-in-out">
-          <img src="/images/dp4.jpg" alt="" className="w-[25%] sm:w-[105%] h-[100%]  object-cover rounded-lg  sm:rounded-2xl origin-top" />
+          <img src="/images/dp4.jpg" alt="" className="w-[25%] hover:rotate-1 transition-transform ease-in-out -rotate-1 cursor-pointer sm:w-[105%] h-[100%]  object-cover rounded-lg  sm:rounded-2xl origin-top" />
+          
         </div>
+        
 
       </div>
 
