@@ -10,7 +10,7 @@ import ProjectPage from './comp/ProjectPage';
 
 function App() {
 
-  const [isDark , setIsDark] = useState(true);
+  const [isDark , setIsDark] = useState(false);
   const toggleDarkMode = () => {
     setIsDark(!isDark);
   };
