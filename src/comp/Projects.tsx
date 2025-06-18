@@ -19,6 +19,8 @@ export default function Projects(){
 
           <ProjectItem glink="https://github.com/Sharad-Banga/Electron" link="https://electron-wallet.vercel.app/" imageUrl="/images/electron.png" Title="Electron - Wallet Generator" description="The Eco‑Chain landing page features a clean, modern design with eco-themed visuals, highlighting sustainable waste management. It clearly presents the platform’s mission." width={30} /> 
 
+          <ProjectItem glink="https://github.com/Sharad-Banga/devHub-fe" link="https://dev-hub-fe.vercel.app/" imageUrl="/images/dev.png" Title="DevHub Landing Page" description="The Eco‑Chain landing page features a clean, modern design with eco-themed visuals, highlighting sustainable waste management. It clearly presents the platform’s mission." width={30} /> 
+
         </div>
     </>
   )
