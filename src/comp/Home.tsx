@@ -1,4 +1,5 @@
 
+import PRH from "./PRH";
 import Projects from "./Projects";
 
 
@@ -80,7 +81,10 @@ export default function Home() {
       
 
         <div className="ml-2 w-full mt-6">
-          <Projects />
+          <div className="text-lg font-semibold mb-4  w-full flex justify-start dark:text-white/90 ">
+            Projects...
+          </div>
+          <PRH />
         </div>
     
     </div >
