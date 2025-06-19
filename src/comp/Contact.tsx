@@ -24,7 +24,7 @@ export default function Contact() {
             </a></div>
 
             <div>
-              ---   
+              ................................................ 
             </div>
 
             <div className="font-semibold">
@@ -42,11 +42,11 @@ export default function Contact() {
               </a></div>
 
               <div>
-              ---   
+              ........................................................... 
             </div>
 
             <div className="font-semibold">
-                  Twitter (X)
+                  Github
             </div>
         </div>
 
@@ -61,11 +61,11 @@ export default function Contact() {
             </a></div>
 
             <div>
-              ---   
+              ........................................................  
             </div>
 
             <div className="font-semibold">
-                  Twitter (X)
+                  LinkedIn
             </div>
         </div>
 
@@ -86,11 +86,11 @@ export default function Contact() {
               </a></div>
 
               <div>
-              ---   
+              ....................................................  
             </div>
 
             <div className="font-semibold">
-                  Twitter (X)
+                  Leetcode
             </div>
         </div>
       </div>
