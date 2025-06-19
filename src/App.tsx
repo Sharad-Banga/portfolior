@@ -21,7 +21,7 @@ function App() {
       
       <div className={`${isDark?"dark":""}`}>
 
-          <div  className="h-[250vh] w-[100%] flex justify-center  dark:bg-black  bg-white bg-no-repeat bg-cover bg-fixed transition-all duration-500  bg-gradient-to-br dark:from-black 
+          <div  className="h-[200vh] w-[100%] flex justify-center  dark:bg-black  bg-white bg-no-repeat bg-cover bg-fixed transition-all duration-500  bg-gradient-to-br dark:from-black 
                 dark:to-gray-600  from-white to-gray-500" >
             <div className="w-[100%] md:w-[50%] h-full ">
 
