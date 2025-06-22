@@ -65,5 +65,5 @@ export default function Mobpro({
 
       </div>
     </>
-  );
+  ); 
 }
