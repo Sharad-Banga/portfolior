@@ -44,11 +44,11 @@ export default function Navbar({darki ,toggleDark}:darkinter){
 
 
 
-          <div>
+          <div className="bg-red">
 
               <button
           onClick={toggleDark}
-          className="px-2 py-1 rounded-4xl  transition-colors backdrop-blur-md"
+          className="px-2 py-1 rounded-3xl  transition-colors backdrop-blur-md"
         >
           {darki ? "🌙" : "☀️"}
         </button>
