@@ -2,7 +2,6 @@ interface projectInter {
   imageUrl: string;
   Title: string;
   description: string;
-  width: number;
   link: string;
   glink: string;
 }
@@ -11,7 +10,6 @@ export default function Mobpro({
   imageUrl,
   Title,
   description,
-  width,
   link,
   glink,
 }: projectInter) {
