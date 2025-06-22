@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import ProjectItem from "./ProjectItem";
-import Mobpro from "../comp/mobpro";
+import Mobpro from "../comp/Mobpro";
 
 export default function PRH(){
   return(

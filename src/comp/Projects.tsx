@@ -1,4 +1,4 @@
-import Mobpro from "./mobpro";
+import Mobpro from "./Mobpro";
 import ProjectItem from "./ProjectItem";
 
 
