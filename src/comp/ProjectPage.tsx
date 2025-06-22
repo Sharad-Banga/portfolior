@@ -15,7 +15,7 @@ useEffect(()=>{
 
 
   return(
-    <div className="mt-20">
+    <div className="mt-20 h-[320vh] sm:h-[150vh]">
       <Projects/>
     </div>
   )

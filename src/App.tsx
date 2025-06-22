@@ -12,7 +12,7 @@ function App() {
 
   const [isDark , setIsDark] = useState(true);
   const toggleDarkMode = () => {
-    setIsDark(!isDark);
+    setIsDark(!isDark); 
   };
   
 
@@ -21,8 +21,7 @@ function App() {
       
       <div className={`${isDark?"dark":""}`}>
 
-          <div  className="h-[200vh] w-[100%] flex justify-center  dark:bg-black  bg-white bg-no-repeat bg-cover bg-fixed transition-all duration-500  bg-gradient-to-br dark:from-black 
-                dark:to-gray-600  from-white to-gray-500" >
+          <div  className="h-full w-[100%] flex justify-center  dark:bg-black      bg-white/10 bg-no-repeat bg-cover bg-fixed transition-all duration-500  " >
             <div className="w-[100%] md:w-[50%] h-full ">
 
               <Navbar darki={isDark} toggleDark={toggleDarkMode} />

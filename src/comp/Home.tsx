@@ -7,14 +7,14 @@ export default function Home() {
     <div className='flex flex-col  justify-start items-start  w-full h-full pt-24 sm:pt-32'>
 
       <div className='flex sm:flex-row flex-col-reverse justify-start items-start sm:justify-between sm:pl-4  sm:items-center h-[200px] sm:h-[170px]   w-full sm:p-[10px] '>
-        <div>
+        <div className="w-full">
           <div className='sm:text-[200%] font-bold text-[120%] w-full sm:w-[180%] flex justify-center sm:justify-start  dark:text-green-300 '>
             SHARAD BANGA
           </div>
           <div className='text-black/70 font-semibold text-[70%] sm:text-[100%] dark:text-white/70 flex justify-center w-full sm:w-[180%] sm:justify-start'>
             Software Engineer
           </div>
-          <div className=' flex justify-center sm:justify-start gap-3 sm:gap-2 sm:w-[66%] w-[100vw] mt-3 items-center   sm:p-1 rounded-md '>
+          <div className=' flex justify-center sm:justify-start gap-3 sm:gap-2 sm:w-[66%] w-full mt-3 items-center   sm:p-1 rounded-md '>
             <div className='p-1 sm:h-[34px] sm:w-[34px] h-[24px] w-[24px] flex justify-center items-center bg-white text-white rounded-md text-[140%] border border-white/15 hover:scale-110 transition-all ease-in-out'><a href="https://x.com/sharad_banga" target="_blank" rel="noopener noreferrer">
             <svg xmlns="http://www.w3.org/2000/svg" x="0px" className='sm:w-[42px] sm:h-[42px] w-[32px] h-[32px]' y="0px"  viewBox="0 0 50 50">
             <path d="M 11 4 C 7.134 4 4 7.134 4 11 L 4 39 C 4 42.866 7.134 46 11 46 L 39 46 C 42.866 46 46 42.866 46 39 L 46 11 C 46 7.134 42.866 4 39 4 L 11 4 z M 13.085938 13 L 21.023438 13 L 26.660156 21.009766 L 33.5 13 L 36 13 L 27.789062 22.613281 L 37.914062 37 L 29.978516 37 L 23.4375 27.707031 L 15.5 37 L 13 37 L 22.308594 26.103516 L 13.085938 13 z M 16.914062 15 L 31.021484 35 L 34.085938 35 L 19.978516 15 L 16.914062 15 z"></path>
@@ -60,7 +60,7 @@ export default function Home() {
           <div className="text-[13px] sm:text-[16px] font-light">
             Hey! I'm Sharad Banga, I build websites that not only work great but also look impressive, focusing on UI and user experience.
 
-            I'm comfortable working in MERN stack and love experimenting with modern technologies. Currently, I’m learning with Next.js and building with TypeScript, Express, and React.
+            I'm comfortable working in <span className="font-semibold">MERN</span> stack and love experimenting with modern technologies. Currently, I’m learning with <span className="font-semibold">Next.js</span>  and building with <span className="font-semibold">TypeScript</span>, <span className="font-semibold">Express</span>, <span className="font-semibold">React.js</span>.
 
           
           </div>
@@ -71,16 +71,16 @@ export default function Home() {
       <div className=" flex justify-center items-center pl-4  mt-4 sm:mt-16">
         <div className="text-center   flex flex-col justify-center items-center">
           <h3 className="text-lg font-semibold mb-4  w-full flex justify-start dark:text-white/90 ">Proof of Work</h3>
-          <div className="overflow-hidden w-[260px] sm:w-[700px] h-[150px]"> 
-            <img src="https://ghchart.rshah.org/Sharad-Banga" alt="GitHub Streak" className="object-cover object-right w-[260px] sm:w-[600px] sm:h-[150px] h-[80px]"/>
+          <div className="overflow-hidden w-[290px] sm:w-[700px] h-[80px] sm:h-[150px]"> 
+            <img src="https://ghchart.rshah.org/Sharad-Banga" alt="GitHub Streak" className="object-cover object-right w-[270px] sm:w-[600px] sm:h-[150px] h-[80px]"/>
           </div>
         </div>
       </div>
 
       
 
-        <div className="ml-2 w-full mt-6">
-          <div className="text-lg font-semibold mb-4  w-full flex justify-start dark:text-white/90 ">
+        <div className=" w-full mt-6">
+          <div className="text-lg font-semibold mb-4 pl-4 sm:pb-0  w-full flex justify-start dark:text-white/90 ">
             Projects...
           </div>
           <PRH />

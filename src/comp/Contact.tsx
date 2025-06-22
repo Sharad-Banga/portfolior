@@ -12,7 +12,7 @@ export default function Contact() {
   return (
     <>
 
-      <div className="mt-32  flex flex-col items-center dark:text-white text-black">
+      <div className="mt-32 h-[100vh] flex flex-col items-center dark:text-white text-black">
 
         <h1 className="text-[20px] font-mono font-semibold ">Contact Me</h1>
 
