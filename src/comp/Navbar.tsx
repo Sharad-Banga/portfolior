@@ -10,7 +10,7 @@ interface darkinter{
 export default function Navbar({darki ,toggleDark}:darkinter){
 
   return(
-    <div className="fixed w-[94%] sm:w-[50%]  dark:border-1 dark:border-white font-semibold">
+    <div className="fixed w-[94%] sm:w-[50%] z-30   dark:border-1 dark:border-white font-semibold">
         <div className={darki?"dark":""}>
         <div className="nav h-[70px] md:h-[90px] w-full dark:text-white text-black flex justify-between items-center  border-b-1 dark:border-white/15 border-red-400  text-[100%] md:text-[110%]">
             
